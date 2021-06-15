@@ -3,8 +3,8 @@
     <div class="container">
         <!-- LOGO -->
         <a class="navbar-brand logo" href="/">
-            <img src="assets/images/logo-level-new.png" alt="" class="logo-dark" height="46" />
-            <img src="assets/images/logo-light.png" alt="" class="logo-light" height="24" />
+            <!-- <img src="" alt="" class="logo-dark" height="46" />
+            <img src="" alt="" class="logo-light" height="24" /> -->
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleMenu()">
@@ -19,7 +19,7 @@
                     <a routerLink="/" [ngxScrollTo]="'#features'" class="nav-link">Quem Somos</a>
                 </li>
                 <li class="nav-item" [ngClass]="{'active':currentSection === 'pricing'}">
-                    <a routerLink="/" [ngxScrollTo]="'#pricing'" class="nav-link">Nossos Valores</a>
+                    <a routerLink="/" [ngxScrollTo]="'#pricing'" class="nav-link">Atividades</a>
                 </li>
                 <li class="nav-item" [ngClass]="{'active':currentSection === 'contact'}">
                     <a routerLink="/" [ngxScrollTo]="'#contact'" class="nav-link">Onde Estamos</a>
@@ -33,8 +33,8 @@
             </ul>
             <ul class="navbar-nav navbar-center">
                 <li class="nav-item">
-                    <a href="https://www.tc2code.com.br/projetos/level/portal/" class="nav-link">
-                        <i-feather class="icon-xs icon mr-1" name="lock"></i-feather> Portal do Cliente
+                    <a  class="nav-link">
+                        <i-feather class="icon-xs icon mr-1" name="lock"></i-feather> Login
                     </a>
                 </li>
             </ul>
